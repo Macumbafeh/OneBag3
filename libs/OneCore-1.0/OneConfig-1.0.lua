@@ -538,8 +538,13 @@ end
 
 --- Opens the configuration panel expanded so you see the sub options in the treeview
 function OneConfig:OpenConfig()
+--[[ TUBIAKOU 2018-04-10 InterfaceOptionsFrame_OpenToCatetory() was named InterfaceOptionsFrame_OpenToFrame() prior to Patch 3.0.2
 	InterfaceOptionsFrame_OpenToCategory(self.configs.showbags)
 	InterfaceOptionsFrame_OpenToCategory(self.configs.main)
+--]]
+	InterfaceOptionsFrame_OpenToFrame(self.configs.showbags)
+    InterfaceOptionsFrame_OpenToFrame(self.configs.main)
+--END_TUBIAKOU
 end           
 
 setup_embed_and_upgrade(OneConfig, "embedded", {
