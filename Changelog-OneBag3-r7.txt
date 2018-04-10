@@ -1,0 +1,42 @@
+2008-08-25  Bryan McLemore  <kaelten@gmail.com>
+
+	* OneCore3.lua:
+	changed glow mode to false by default
+	[9f369c41fd81] [tip]
+
+	* OneCore3.lua:
+	overhaul to the higlights
+	[0d2307999c8f]
+
+2008-08-20  Bryan McLemore  <kaelten@gmail.com>
+
+	* OneBag3.lua, OneCore3.lua:
+	bug fix for tekkub
+	[295dc55dbbfc]
+
+	* OneBag3.lua, OneCore3.lua:
+	added border coloring. changed glow to true for a default
+	[ac689610201b]
+
+	* OneBag3.lua, OneCore3.lua:
+	several bug fixes, and some tweaks
+	[32c479d7a546]
+
+2008-08-19  Bryan McLemore  <kaelten@gmail.com>
+
+	* OneBag3.lua, OneCore3.lua:
+	Cleaned up a lot of small things on the frame Added close button
+	Added working sidebar button Added nameplate
+	[1ac199be6414]
+
+	* OneBag3.lua, OneCore3.lua:
+	and there are bags slots.....
+	[abb62cf7f669]
+
+2008-08-04  Bryan McLemore  <kaelten@gmail.com>
+
+	* OneBag3.lua, OneBag3.toc, OneCore3.lua, localizations/enUS.lua,
+	localizations/locals.xml:
+	fixed display order
+	[b615e66ac3cb]
+
